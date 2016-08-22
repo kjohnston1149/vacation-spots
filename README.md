@@ -1,4 +1,4 @@
-# _Place I've Visited_
+# _Places I've Visited_
 
 #### _Creates directory of places visited based on JavaScript logic, August 22 2016_
 
