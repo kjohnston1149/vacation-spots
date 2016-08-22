@@ -14,3 +14,8 @@
 .listItem:hover {
   text-decoration: underline;
 }
+
+img {
+  width: 300px;
+  height: auto;
+}
