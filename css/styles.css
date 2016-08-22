@@ -1,1 +1,16 @@
+#placeList {
+  margin-top: 25px;
+}
 
+#showTravelInfo {
+  display: none;
+}
+
+.listItem {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.listItem:hover {
+  text-decoration: underline;
+}

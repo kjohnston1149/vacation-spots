@@ -19,10 +19,20 @@ $(function() {
 
     $("ul#placeList").append("<li><span class='listItem'>" + newDestination.placeName + "</span></li>");
 
+    $(".listItem").last().click(function() {
+      $("#showTravelInfo").show();
+      $("#showTravelInfo h2").text(newDestination.placeName);
+      $(".country").text(newDestination.country);
+      $(".date").text(newDestination.date);
+      $(".info").text(newDestination.info);
+    });
+
     $("#placeName").val("");
     $("#country").val("");
     $("#date").val("");
     $("#info").val("");
+
+
   });
 
 });
